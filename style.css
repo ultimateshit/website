@@ -570,23 +570,6 @@ div label[for=ui-component-toggle__yearly] {
   font-weight: 700;
 }
 
-/* AMOUNT */
-
-.ui-component-card--pricing-amount-1::before { content: "$5"; }
-
-#ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-1::before { content: "$3"; }
-
-.ui-component-card--pricing-amount-2::before { content: "$15"; }
-
-#ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-2::before { content: "$13"; }
-
-.ui-component-card--pricing-amount-3::before { content: "$25"; }
-
-#ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-3::before { content: "$23"; }
-
 /* LIST */
 
 .ui-component-list--pricing {
@@ -594,47 +577,6 @@ div label[for=ui-component-toggle__yearly] {
   margin-top: 1.25rem;
 }
 
-/*--------------------------------------------------------------
-|
-| 7.7 FAQ
-|
---------------------------------------------------------------*/
-
-.ui-section-faq { padding-bottom: 5rem; }
-
-.ui-section-faq__layout {
-  margin-bottom: 2rem;
-  row-gap: var(--ui-gap-faq);
-  text-align: left;
-}
-
-.ui-section-faq--question {
-  background-image: url(https://res.cloudinary.com/uisual/image/upload/assets/icons/question.svg);
-  margin-bottom: .5rem;
-}
-
-.ui-section-faq--answer { padding-left: 1.875rem; }
-
-.ui-section-faq--note { text-align: center; }
-
-/*--------------------------------------------------------------
-|
-| 7.8 CLOSE
-|
---------------------------------------------------------------*/
-
-.ui-section-close {
-  background-color: var(--ui-color-background-secondary);
-  padding-bottom: 5rem;
-  padding-top: 5rem;
-  text-align: center;
-}
-
-.ui-section-close__layout {
-  align-items: stretch;
-  flex-direction: column;
-  row-gap: var(--ui-typography-margin-body);
-}
 
 /*--------------------------------------------------------------
 |
